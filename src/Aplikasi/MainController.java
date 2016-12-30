@@ -7,6 +7,7 @@ package Aplikasi;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 
 /**
@@ -22,6 +23,14 @@ public class MainController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
+    }
+
+    public void processNumbers(ActionEvent event){
+        
+    }
+    
+    public void processOperators(ActionEvent event){
+        
+    }
     
 }
